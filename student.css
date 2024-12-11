@@ -1,0 +1,50 @@
+.side-menu {
+    list-style: none;
+    /* Loại bỏ dấu chấm đầu dòng */
+    margin: 0;
+    /* Xóa margin mặc định của ul */
+    padding: 0;
+    /* Xóa padding mặc định của ul */
+}
+
+.side-menu li {
+    margin: 0;
+    /* Xóa khoảng cách bên ngoài */
+    padding: 0;
+    /* Xóa khoảng cách bên trong */
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.student-number-display {
+    width: 60px;
+    height: 70%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.student-number {
+    display: flex;
+}
+
+.student-number-box {
+    display: flex;
+    align-items: center;
+
+}
